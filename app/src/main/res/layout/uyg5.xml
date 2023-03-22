@@ -3,64 +3,71 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:onClick="uyg5Goster">
-
-    <Button
-        android:id="@+id/btnHesapla"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="87dp"
-        android:onClick="btnhesapla"
-        android:text="Hesapla"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gunluksaat" />
+    android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editTextCihazAdi"
+        android:id="@+id/CihazAdi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="97dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
-        android:hint="Cihaz Adı"
+        android:hint="Cihaz Adi"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextKw"
+        android:id="@+id/CihazGucu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="2dp"
         android:ems="10"
-        android:hint="Cihaz Gücü (KW)"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextCihazAdi" />
+        android:hint="Cihaz Gücü (kw)"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/CihazAdi"
+        app:layout_constraintTop_toBottomOf="@+id/CihazAdi" />
 
     <EditText
-        android:id="@+id/gunluksaat"
+        android:id="@+id/GunlukSaat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
-        android:hint="Günlük Kullanılan Saat"
-        android:inputType="textPersonName"
+        android:hint="Günlük Saat Kullanımı"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/CihazGucu"
+        app:layout_constraintTop_toBottomOf="@+id/CihazGucu" />
+
+    <Button
+        android:id="@+id/btnHesapla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Hesapla"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextKw" />
+        app:layout_constraintTop_toBottomOf="@+id/GunlukSaat" />
 
     <TextView
-        android:id="@+id/textViewSonuc"
+        android:id="@+id/Tutar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="77dp"
-        android:layout_marginEnd="51dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/btnHesapla"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="39dp"
+        android:text="Tutar ="
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnHesapla" />
 
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="49dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/btnHesapla"
+        app:layout_constraintTop_toBottomOf="@+id/btnHesapla" />
 </androidx.constraintlayout.widget.ConstraintLayout>

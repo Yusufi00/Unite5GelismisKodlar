@@ -10,10 +10,13 @@
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="200dp"
         android:onClick="uyg1Goster"
-        android:text="1.Uygulama "
+        android:text="@string/uyg1"
+        app:layout_constraintBottom_toTopOf="@+id/uyg6Goster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,54 +24,66 @@
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:onClick="uyg2Goster"
-        android:text="2.Uygulama "
-        app:layout_constraintStart_toStartOf="@+id/btn1"
+        android:text="@string/uyg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn1" />
 
     <Button
-        android:id="@+id/uyg3"
+        android:id="@+id/Uyg3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="36dp"
         android:onClick="uyg3Goster"
-        android:text="Uygulama 3"
+        android:text="@string/uyg3"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn2" />
 
     <Button
-        android:id="@+id/uyg4"
+        android:id="@+id/Uyg4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="39dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginTop="8dp"
         android:onClick="uyg4Goster"
-        android:text="Uygulama 4"
-        app:layout_constraintBottom_toTopOf="@+id/uyg5"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="@string/uyg4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uyg3" />
 
     <Button
         android:id="@+id/uyg5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="296dp"
         android:onClick="uyg5Goster"
-        android:text="Uygulama 5"
+        android:text="@string/uyg5"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uyg4"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/uyg6"
+        android:id="@+id/uyg6Goster"
+        android:layout_width="303dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="406dp"
+        android:onClick="uyg6Goster"
+        android:text="@string/uyg6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/uyg7Goster"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="36dp"
-        android:onClick="uyg6Goster"
-        android:text="Uygulama 6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uyg5" />
+        android:onClick="uyg7Goster"
+        android:text="@string/uyg7"
+        app:layout_constraintTop_toBottomOf="@+id/uyg6Goster"
+        tools:layout_editor_absoluteX="98dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

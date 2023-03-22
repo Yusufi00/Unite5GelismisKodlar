@@ -6,64 +6,61 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editTextKisaKenar"
-        android:layout_width="240dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginBottom="99dp"
+        android:id="@+id/uznluk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
         android:ems="10"
+        android:hint="uzun kenarı girin"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/buttonDikdortgenAlani"
+        app:layout_constraintBottom_toTopOf="@+id/kisakenar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/buttonKareAlani"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="78dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="52dp"
-        android:text="kare"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toStartOf="@+id/buttonDikdortgenAlani"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextUzunKenar" />
-
-    <Button
-        android:id="@+id/buttonDikdortgenAlani"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="89dp"
-        android:layout_marginBottom="427dp"
-        android:text="Dikdortgen"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/buttonKareAlani"
-        app:layout_constraintTop_toBottomOf="@+id/editTextKisaKenar" />
-
-    <TextView
-        android:id="@+id/textView3"
+    <EditText
+        android:id="@+id/kisakenar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="86dp"
-        android:layout_marginBottom="356dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="kısa kenarı girin"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/dikdortgenAlan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uznluk" />
+
+    <Button
+        android:id="@+id/dikdortgenAlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:text="Dik Dortgen Alanını Bulun"
+        app:layout_constraintBottom_toTopOf="@+id/kareAlan"
+        app:layout_constraintStart_toStartOf="@+id/kareAlan"
+        app:layout_constraintTop_toBottomOf="@+id/kisakenar" />
+
+    <Button
+        android:id="@+id/kareAlan"
+        android:layout_width="241dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:text="kare alan bulun"
+        app:layout_constraintBottom_toTopOf="@+id/Alan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dikdortgenAlan" />
+
+    <TextView
+        android:id="@+id/Alan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="429dp"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/buttonKareAlani"
-        app:layout_constraintTop_toBottomOf="@+id/buttonKareAlani" />
-
-    <EditText
-        android:id="@+id/editTextUzunKenar"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/buttonKareAlani"
-        app:layout_constraintEnd_toEndOf="@+id/buttonDikdortgenAlani"
-        app:layout_constraintStart_toStartOf="@+id/editTextKisaKenar"
-        app:layout_constraintTop_toBottomOf="@+id/editTextKisaKenar" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kareAlan" />
 </androidx.constraintlayout.widget.ConstraintLayout>

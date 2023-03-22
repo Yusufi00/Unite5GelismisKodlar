@@ -3,18 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Gelismiskomutlari/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
-        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Gelismiskomutlari/app/src/main/res/layout/uyg1activity.xml" value="0.20901639344262296" />
-        <entry key="..\:/Users/Ogrenci/Documents/gelismiskomutlari/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Ogrenci/Documents/gelismiskomutlari/app/src/main/res/layout/uyg1activity.xml" value="0.16869300911854104" />
-        <entry key="..\:/Users/Ogrenci/Documents/gelismiskomutlari/app/src/main/res/layout/uyg2.xml" value="0.33" />
-        <entry key="..\:/Users/Ogrenci/Documents/gelismiskomutlari/app/src/main/res/layout/uyg3.xml" value="0.1391558712912662" />
-        <entry key="..\:/Users/Ogrenci/Documents/gelismiskomutlari/app/src/main/res/layout/uyg4.xml" value="0.13873798579189303" />
-        <entry key="..\:/Users/Ogrenci/Documents/unite5gul/app/src/main/res/layout/activity_main.xml" value="0.26358695652173914" />
-        <entry key="..\:/Users/Ogrenci/Documents/unite5gul/app/src/main/res/layout/uyg4.xml" value="0.27717391304347827" />
-        <entry key="..\:/Users/Ogrenci/Documents/unite5gul/app/src/main/res/layout/uyg5.xml" value="0.22" />
-        <entry key="..\:/Users/Ogrenci/Documents/unite5gul/app/src/main/res/layout/uyg6.xml" value="0.27717391304347827" />
-        <entry key="..\:/Users/Ogrenci/Documents/unite5gul/app/src/main/res/layout/uyg7.xml" value="0.33489583333333334" />
+        <entry key="..\:/Unite5GelismisKodlar/app/src/main/res/layout/uyg1.xml" value="0.27717391304347827" />
+        <entry key="..\:/Unite5GelismisKodlar/app/src/main/res/layout/uyg4.xml" value="0.346875" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Unite5_GelisimizKonular/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Unite5_GelisimizKonular/app/src/main/res/layout/uyg1.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Unite5_GelisimizKonular/app/src/main/res/layout/uyg2.xml" value="0.25" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Unite5_GelisimizKonular/app/src/main/res/layout/uyg3.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Unite5_GelisimizKonular/app/src/main/res/layout/uyg4.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Unite5_GelisimizKonular/app/src/main/res/layout/uyg5.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/AndroidStudioProjects/Unite5_GelisimizKonular/app/src/main/res/layout/uyg6.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/Ogrenci/Desktop/Unite5GelismisKodlar/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/Unite5GelismisKodlar/app/src/main/res/layout/uyg4.xml" value="0.22" />
+        <entry key="..\:/Users/Ogrenci/Desktop/Unite5GelismisKodlar/app/src/main/res/layout/uyg6.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/Unite5GelismisKodlar/app/src/main/res/layout/uyg7.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg1.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg10.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg2.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg3.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg4.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg5.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg6.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg7.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg8.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Desktop/hhjhh/app/src/main/res/layout/uyg9.xml" value="0.22" />
+        <entry key="..\:/Users/Ogrenci/Unite5GelismisKodlar/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Ogrenci/Unite5GelismisKodlar/app/src/main/res/layout/uyg1.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Unite5GelismisKodlar/app/src/main/res/layout/uyg2.xml" value="0.22" />
+        <entry key="..\:/Users/Ogrenci/Unite5GelismisKodlar/app/src/main/res/layout/uyg3.xml" value="0.1" />
+        <entry key="..\:/Users/Ogrenci/Unite5GelismisKodlar/app/src/main/res/layout/uyg4.xml" value="0.18" />
+        <entry key="..\:/Users/Ogrenci/Unite5_Gelismis_Komutlar/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Unite5_Gelismis_Komutlar/app/src/main/res/layout/uyg1.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Unite5_Gelismis_Komutlar/app/src/main/res/layout/uyg10.xml" value="0.25" />
+        <entry key="..\:/Users/Ogrenci/Unite5_Gelismis_Komutlar/app/src/main/res/layout/uyg5.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Unite5_Gelismis_Komutlar/app/src/main/res/layout/uyg7.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Ogrenci/Unite5_Gelismis_Komutlar/app/src/main/res/layout/uyg8.xml" value="0.25" />
+        <entry key="..\:/Users/Ogrenci/Unite5_Gelismis_Komutlar/app/src/main/res/layout/uyg9.xml" value="0.25" />
       </map>
     </option>
   </component>

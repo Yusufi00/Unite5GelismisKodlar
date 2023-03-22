@@ -5,35 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button"
+    <EditText
+        android:id="@+id/etexta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="177dp"
-        android:text="Button"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etexta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btna1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:text="Sonuç"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="95dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextNumber3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etexta2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/download" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

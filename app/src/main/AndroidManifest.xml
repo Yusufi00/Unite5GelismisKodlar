@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.gelismiskomutlari">
+    package="com.example.unite5_gelisimizkonular">
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/uyg1"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Gelismiskomutlari"
+        android:theme="@style/Theme.Unite5_GelisimizKonular"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
@@ -22,14 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Uyg1"></activity>
+        <activity android:name=".Uyg1" ></activity>
         <activity android:name=".Uyg2"></activity>
-        <activity android:name=".Uyg3"></activity>
-        <activity android:name=".Uyg4"></activity>
-        <activity android:name=".Uyg5"></activity>
-        <activity android:name=".Uyg6"></activity>
-        <activity android:name=".Uyg7"></activity>
+        <activity android:name=".Uyg3" ></activity>
+        <activity android:name=".Uyg4" ></activity>
+        <activity android:name=".Uyg5" ></activity>
+        <activity android:name=".Uyg6" ></activity>
+        <activity android:name=".Uyg7" ></activity>
+        <activity android:name=".Uyg8.Uyg8" ></activity>
+        <activity android:name=".Uyg9.Uyg9" ></activity>
+        <activity android:name=".Uyg10.Uyg10" ></activity>
+
+
 
     </application>
 

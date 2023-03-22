@@ -1,25 +1,25 @@
-package com.example.gelismiskomutlari;
-
+package com.example.unite5_gelisimizkonular;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.os.Bundle;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Uyg4 extends AppCompatActivity {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg4);
-        Button btn1 = findViewById(R.id.button1);
-        EditText editText1 = findViewById(R.id.editText1);
-        EditText editText2 = findViewById(R.id.editText2);
-        EditText editText3 = findViewById(R.id.edittext3);
+        Button btn1 = findViewById(R.id.btnc1);
+        EditText editText1 = findViewById(R.id.etextc1);
+        EditText editText2 = findViewById(R.id.etextc2);
+        EditText editText3 = findViewById(R.id.etextc3);
         TextView textView = findViewById(R.id.textView);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +32,7 @@ public class Uyg4 extends AppCompatActivity {
                 textView.setText(Integer.toString(sonuc));
             }
         });
-        Button btn2 = findViewById(R.id.button2);
+        Button btn2 = findViewById(R.id.btnc2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,7 +41,7 @@ public class Uyg4 extends AppCompatActivity {
                 int sayi2;
                 sayi2 = Integer.parseInt(editText2.getText().toString());
                 int sayi3;
-                sayi3 = Integer.parseInt(editText3.getText().toString());
+                sayi3 = Integer.parseInt(editText1.getText().toString());
                 int sonuc = topla(sayi1,sayi2,sayi3);
                 textView.setText(Integer.toString(sonuc));
             }
@@ -54,4 +54,3 @@ public class Uyg4 extends AppCompatActivity {
         return sayi1 + sayi2 + sayi3;
     }
 }
-

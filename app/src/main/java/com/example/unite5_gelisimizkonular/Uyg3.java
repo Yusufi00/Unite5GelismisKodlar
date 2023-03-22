@@ -1,24 +1,24 @@
-package com.example.gelismiskomutlari;
-
+package com.example.unite5_gelisimizkonular;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+import android.os.Bundle;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Uyg3 extends AppCompatActivity {
 
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg3);
-        Button btn1 = findViewById(R.id.button1);
-        EditText editText1 = findViewById(R.id.editText1);
-        EditText editText2 = findViewById(R.id.editText2);
+        Button btn1 = findViewById(R.id.btna1);
+        EditText editText1 = findViewById(R.id.etexta1);
+        EditText editText2 = findViewById(R.id.etexta2);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,5 +36,3 @@ public class Uyg3 extends AppCompatActivity {
         return sayi1 + sayi2;
     }
 }
-
-

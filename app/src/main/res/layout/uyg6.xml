@@ -1,66 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <EditText
-        android:id="@+id/uznluk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="29dp"
-        android:ems="10"
-        android:hint="uzun kenarı girin"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/kisakenar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/kisakenar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="23dp"
-        android:ems="10"
-        android:hint="kısa kenarı girin"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/dikdortgenAlan"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uznluk" />
-
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+<EditText
+android:id="@+id/editTextKisaKenar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:hint="Kısa Kenar"/>
+<EditText
+android:id="@+id/editTextUzunKenar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:hint="Uzun Kenar"/>
     <Button
-        android:id="@+id/dikdortgenAlan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="23dp"
-        android:text="Dik Dortgen Alanını Bulun"
-        app:layout_constraintBottom_toTopOf="@+id/kareAlan"
-        app:layout_constraintStart_toStartOf="@+id/kareAlan"
-        app:layout_constraintTop_toBottomOf="@+id/kisakenar" />
-
+        android:id="@+id/buttonKareAlani"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kare Alanı" />
     <Button
-        android:id="@+id/kareAlan"
-        android:layout_width="241dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="24dp"
-        android:text="kare alan bulun"
-        app:layout_constraintBottom_toTopOf="@+id/Alan"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dikdortgenAlan" />
-
+        android:id="@+id/buttonDikdortgenAlani"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dikdörtgen Alanı"/>
     <TextView
-        android:id="@+id/Alan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="429dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kareAlan" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:id="@+id/textViewAlan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Alan"/>
+</LinearLayout>

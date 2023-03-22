@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/textViewBilgi"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="@string/ara_bilgisi" />
+
+    <Button
+        android:id="@+id/buttonMinibusYolcuIndir"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Minibüs Yolcu İndir" />
+
+    <Button
+        android:id="@+id/buttonMinibusCalistir"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Minibüs’ü Çalıştır" />
+
+    <Button
+        android:id="@+id/buttonMinibusHiz"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Minibüs maksimum hızı" />
+
+    <Button
+        android:id="@+id/buttonMinibusKapi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Minibüs Kapı Sayısı" />
+
+    <Button
+        android:id="@+id/buttonArabaIseGit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:baselineAligned="false"
+        android:text="Araba İşe Git" />
+
+    <Button
+        android:id="@+id/buttonArabaCalistir"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Araba’yı Çalıştır" />
+
+    <Button
+        android:id="@+id/buttonArabaKapi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Araba Kapı Sayısı" />
+
+    <Button
+        android:id="@+id/buttonArabaHiz"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Araba maksimum hızı" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vw_transporter_t2b_v_sst" />
+
+
+</LinearLayout>

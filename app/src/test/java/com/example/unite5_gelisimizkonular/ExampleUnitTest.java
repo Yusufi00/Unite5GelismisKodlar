@@ -1,4 +1,4 @@
-package com.example.gelismiskomutlari;
+package com.example.unite5_gelisimizkonular;
 
 import org.junit.Test;
 
